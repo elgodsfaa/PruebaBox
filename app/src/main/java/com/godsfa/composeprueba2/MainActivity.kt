@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun PruebaBox() {
-   Box(modifier = Modifier.fillMaxSize().padding(100.dp)) {
+   Box(modifier = Modifier.fillMaxSize().padding(50.dp)) {
         Text(text = "Hola, mundo!"
             , modifier = Modifier.align(Alignment.TopStart))
         Text(text = "Este es un texto dentro del Box."
@@ -42,7 +42,7 @@ fun PruebaBox() {
 
 
 @Composable
-@Preview
+@Preview (showBackground = true)
 fun PruebaBoxPreview() {
     PruebaBox()
 }
